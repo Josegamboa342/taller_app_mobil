@@ -90,7 +90,7 @@ export default function Programas() {
   return (
     <View style={styles.container}>
 
-      {/* Botón volver */}
+
       <Pressable style={styles.backBtn} onPress={() => router.back()}>
         <Text style={styles.backBtnText}>← Volver</Text>
       </Pressable>
